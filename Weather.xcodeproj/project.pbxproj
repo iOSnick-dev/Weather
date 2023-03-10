@@ -13,6 +13,7 @@
 		6D9B0EBA29BB5C3F00A704FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D9B0EB829BB5C3F00A704FC /* Main.storyboard */; };
 		6D9B0EBC29BB5C4000A704FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D9B0EBB29BB5C4000A704FC /* Assets.xcassets */; };
 		6D9B0EBF29BB5C4000A704FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D9B0EBD29BB5C4000A704FC /* LaunchScreen.storyboard */; };
+		6DE3A16929BB6D1800118C35 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE3A16829BB6D1800118C35 /* WeatherData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6D9B0EBB29BB5C4000A704FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D9B0EBE29BB5C4000A704FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D9B0EC029BB5C4000A704FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DE3A16829BB6D1800118C35 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				6D9B0EB229BB5C3F00A704FC /* AppDelegate.swift */,
 				6D9B0EB429BB5C3F00A704FC /* SceneDelegate.swift */,
 				6D9B0EB629BB5C3F00A704FC /* ViewController.swift */,
+				6DE3A16829BB6D1800118C35 /* WeatherData.swift */,
 				6D9B0EB829BB5C3F00A704FC /* Main.storyboard */,
 				6D9B0EBB29BB5C4000A704FC /* Assets.xcassets */,
 				6D9B0EBD29BB5C4000A704FC /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				6D9B0EB729BB5C3F00A704FC /* ViewController.swift in Sources */,
 				6D9B0EB329BB5C3F00A704FC /* AppDelegate.swift in Sources */,
+				6DE3A16929BB6D1800118C35 /* WeatherData.swift in Sources */,
 				6D9B0EB529BB5C3F00A704FC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
