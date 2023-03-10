@@ -9,11 +9,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var weatherLabel: UILabel!
+    @IBOutlet var getWeatherButton: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        getWeatherButton.addTarget(self, action: #selector(didTapWeatherButton), for: .touchUpInside)
+    }
+    
+    @objc func didTapWeatherButton() {
+        print("Button tapped")
     }
 
 
+    
+    
+    
 }
 
